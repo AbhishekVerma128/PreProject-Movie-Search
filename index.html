@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="input">
+        <input type="text" placeholder="enter movie title" id="input">
+        <input type="text" placeholder="enter genre" id="genre">
+        <select name="adSearch" id="adSearch">
+            <option value="">choose options</option>
+            <option value="title">title</option>
+            <option value="genre">genre</option>
+            <option value="both">both</option>
+        </select>
+    </div>
+    <div>
+        <button id="btn">search</button>
+        <button id="Tsort">sort by title</button>
+        <button id="Gsort">sort by genre</button>
+    </div>
+    <ul id="result">
+    
+    </ul>
+
+    <ul id="count-genre"></ul>
+    <script src="./app.js"></script>
+</body>
+</html>
